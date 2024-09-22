@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+               
+                <img src="https://i.pinimg.com/originals/3e/4e/83/3e4e83ecb133c19f2a08fc9fb5ea9f11.png" alt="Logo" height="50">
+               
+                <h1>FitMate</h1>
+            </div>
+        </div>
+    </header>
+<div class="container">
+    <h1>Register</h1>
+
+    <form id="registerForm" action="tracking.html" method="post">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br><br>
+        <input type="submit" value="Register">
+    </form>
+
+    <button id="startTrackingBtn" onclick="window.location.href='tracking.html'">Start Tracking</button>
+
+    <div class="signin-links">
+        <a href="index.html">Already have an account? Sign in here.</a>
+    </div>
+</div>
+
+<script>
+    document.getElementById("registerForm").addEventListener("submit", function(event) {
+        event.preventDefault();
+        document.getElementById('startTrackingBtn').style.display = 'block';
+    });
+</script>
+
+</body>
+</html>

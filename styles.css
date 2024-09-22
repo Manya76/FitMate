@@ -1,0 +1,182 @@
+/* Add your custom styles here */
+
+.hero {
+    background-color: #3a0101; /* Background color */
+    padding: 100px 0; /* Padding top and bottom */
+    text-align: center; /* Center-align the content */
+    border-bottom: 1px solid #dee2e6; /* Bottom border */
+}
+.hero h1 {
+    color:#ffffff;
+    font-family: 'Brush Script MT', 'bellona'; /* Specify a cursive brush script font */
+    font-size: 48px; /* Font size for heading */
+    margin-bottom: 20px; /* Bottom margin for heading */
+}
+
+.hero .row img {
+    height: 300px; /* Set a specific height for the images */
+}
+
+.hero p {
+    color: #ffffff; /* Text color */
+    font-size: 18px; /* Font size for paragraph */
+    line-height: 1.6; /* Line height for better readability */
+    margin-bottom: 40px; /* Bottom margin for paragraph */
+}
+.hero .btn-primary {
+    background-color: #013605; /* Button background color */
+    color: #ffffff; /* Button text color */
+    border-radius: 25px; /* Button border radius */
+    padding: 12px 30px; /* Padding inside the button */
+    font-size: 18px; /* Font size for button text */
+    text-transform: uppercase; /* Uppercase button text */
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+.hero .btn-primary:hover {
+    background-color: #0056b3; /* Darker background color on hover */
+}
+
+
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+.fitmate {
+    color: #ffffff;
+    height: auto;
+    margin-left: 10px; /* Adjust the margin as needed */
+}
+
+
+
+.overview {
+    background-color: #000000;
+    color: #ffffff; /* Background color */
+    padding: 60px; /* Padding around the content */
+    text-align: center; /* Center-align the content */
+    border-bottom: 1px solid #dee2e6; /* Bottom border */
+}
+.overview h2 {
+    color: #ffffff; /* Heading color */
+    font-size: 32px; /* Font size for heading */
+    font-family: 'Pacifico', cursive; /* Specify a cursive font family */
+    text-transform: uppercase; /* Uppercase the text */
+    letter-spacing: 2px; /* Add some letter spacing for better readability */
+    margin-bottom: 20px; /* Bottom margin for heading */
+}
+
+.overview p {
+    color: #ffffff; /* Text color */
+    font-size: 16px; /* Font size for paragraph */
+    line-height: 1.6; /* Line height for better readability */
+}
+.features {
+    background-color: #3a0101;
+    color: #ffffff; /* Background color */
+    padding: 60px; /* Padding around the content */
+    text-align: center; /* Center-align the content */
+    border-bottom: 1px solid #dee2e6; /* Bottom border */
+}
+.features h2 {
+    color: #ffffff; /* Heading color */
+    font-size: 32px; /* Font size for heading */
+    font-family: 'Pacifico', cursive; /* Specify a cursive font family */
+    text-transform: uppercase; /* Uppercase the text */
+    letter-spacing: 2px; /* Add some letter spacing for better readability */
+    margin-bottom: 20px; /* Bottom margin for heading */
+}
+
+.features ul {
+    list-style-type: none; /* Remove default bullet points */
+    padding: 0; /* Remove default padding */
+}
+
+.features ul li::before {
+    content: "\2022"; /* Unicode character for bullet point */
+    color: #ffffff; /* Color of the bullet point */
+    font-size: 18px; /* Size of the bullet point */
+    margin-right: 10px; /* Spacing between bullet point and text */
+}
+
+.features img {
+    width: 100%; /* Make the image fill the entire width of its container */
+    max-width: 300px; /* Limit the maximum width of the image */
+    margin-top: 30px; /* Add some space between the list and the image */
+}
+
+.team{
+    background-color: #460505;
+    color: #ffffff;;
+    padding: 80px 0;
+}
+.about,
+.contact {
+    background-color: #000000;
+    color: #ffffff;;
+    padding: 80px 0;
+}
+
+.team-member {
+    background-color: #3a0101;
+    color: #ffffff;;
+    text-align: center;
+}
+
+.team-member img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+.footer {
+    background-color: #343a40;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.section {
+    padding: 80px 0;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
+}
+
+
+
+.carousel-item img {
+    height: calc(400px - 40px); /* Adjusted height with padding */
+    object-fit: cover; /* Maintain aspect ratio */
+    width: calc(100% - 40px); /* Adjusted width with padding */
+    margin: 20px 20px 0; /* Top padding and left/right padding */
+}
+
+
+.exercise-history-section {
+    background-color: #550000; /* Red background */
+    color: #ffffff; /* White font color */
+    padding: 20px; /* Add padding around the section */
+    border: 1px solid #dee2e6; /* Border */
+    border-radius: 10px; /* Border radius */
+}
+.exercise-history-section table {
+    background-color: #550000; /* Red background */
+    color: #ffffff; /* White font color */
+}
+
+.exercise-history-section th,
+.exercise-history-section td {
+    border-color: #ffffff; /* White border color */
+}
+
+.exercise-history-section th {
+    background-color: #781717;
+     /* Darker red for table header */
+}
+body {
+    background-color: #9b4747; /* Red background color */
+}
+
+
+
